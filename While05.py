@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i = 0
+    b = 0
+
+    while i < len(s):
+        if i[s].islower():
+            b += 1
+        i += 1
+    return b
