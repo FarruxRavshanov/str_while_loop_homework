@@ -7,11 +7,11 @@ def main(s):
         int: return answer
     """
     from string import punctuation
-
+    p = punctuation
     i = 0
     a = 0
     while i < len(s):
-        if not s[i].isdigit() or s[i].isalpha() or s[i].iswhitespace():
+        if s[i] in p:
             a += 1
         i += 1
     return a
