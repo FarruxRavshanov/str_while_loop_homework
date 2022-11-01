@@ -11,7 +11,7 @@ def main(s):
     i = 0
     a = 0
     while i < len(s):
-        if s[i].ispunctiation():
+        if not s[i].isdigit() or s[i].isalpha() or s[i].iswhitespace():
             a += 1
         i += 1
     return a
