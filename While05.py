@@ -10,7 +10,7 @@ def main(s):
     b = 0
 
     while i < len(s):
-        if i[s].islower():
+        if s[i].islower():
             b += 1
         i += 1
     return b
