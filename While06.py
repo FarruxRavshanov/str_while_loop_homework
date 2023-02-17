@@ -10,6 +10,7 @@ def main(s):
 
     i = 0
     a = 0
+    s = s.lower
 
     while i < len(s):
         if s[i].isalpha():
